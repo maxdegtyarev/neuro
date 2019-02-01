@@ -1,36 +1,36 @@
-Алгоритм распознавания пятёрки <br>
-Входные данные представляются так: <br>
+How we can to recognize 5? <br>
+Input data: <br>
 
 111 <br>
 100 <br>
-111    <- Идеальная пятёрка <br>
+111    <- Ideal number five <br>
 001 <br>
 111<br>
 
 
 <br>
-Лог работы программы
+Logs:
 <br>
-Весы: [1, 1, 1, 2, 0, -7, 1, 2, 1, -7, 0, 1, 1, 1, 1]
+Weigth: [1, 1, 1, 2, 0, -7, 1, 2, 1, -7, 0, 1, 1, 1, 1]
 <br>
-Проверяем неверные входные данные:<br>
-0 это 5?  False<br>
-1 это 5?  False<br>
-2 это 5?  False<br>
-3 это 5?  False<br>
-4 это 5?  False<br>
-5 это 5?  True<br>
-6 это 5?  False<br>
-7 это 5?  False<br>
-8 это 5?  False<br>
-9 это 5?  False<br>
+Checking for correct data:<br>
+0 is 5?  False<br>
+1 is 5?  False<br>
+2 is 5?  False<br>
+3 is 5?  False<br>
+4 is 5?  False<br>
+5 is 5?  True<br>
+6 is 5?  False<br>
+7 is 5?  False<br>
+8 is 5?  False<br>
+9 is 5?  False<br>
 <br>
-Проверяем остальные пятёрки
+Checking other fives
 <br>
-Узнал 5?  True<br>
-Узнал 5 - 1?  True<br>
-Узнал 5 - 2?  True<br>
-Узнал 5 - 3?  True<br>
-Узнал 5 - 4?  True<br>
-Узнал 5 - 5?  True<br>
-Узнал 5 - 6?  True<br>
+Is 5?  True<br>
+Is 5 - 1?  True<br>
+Is 5 - 2?  True<br>
+Is 5 - 3?  True<br>
+Is 5 - 4?  True<br>
+Is 5 - 5?  True<br>
+Is 5 - 6?  True<br>
